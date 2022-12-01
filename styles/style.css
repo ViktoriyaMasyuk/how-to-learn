@@ -41,7 +41,6 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-
 }
 
 .header__subtitle {
@@ -108,7 +107,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  
 }
 .two-columns__main-text {
   margin: 0 auto;
@@ -131,16 +129,21 @@
   font-size: 24px;
   font-weight: 600;
 }
+
 .digits {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
 .section{
   display: flex;
   flex-direction: column;
   position: relative;
 }  
-}
+
 .section-title {
   width: 60%;
   margin: 0 auto;
@@ -158,6 +161,7 @@
   font-size: 24px;
   font-weight: normal;
 }
+
 .table {
   width: 1100px;
   margin: 0 auto;
@@ -167,11 +171,12 @@
   justify-content:space-between;
   align-content: stretch;
 }
-/
+
 .table__cell {
   width: 250px;
   margin-top: 60px;
 }
+
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
@@ -198,6 +203,7 @@
   position:relative;
   margin: 0;
 }
+
 .feynman__title {
   margin: 0 auto;
   max-width: 648px;
@@ -207,6 +213,7 @@
   text-align: center;
   z-index: 3;
 }
+
 .feynman__subtitle {
   padding: 70px auto 0 auto;
   line-height: 51px;
@@ -215,6 +222,7 @@
   text-align: center;
   z-index: 2;
 }
+
 .feynman__link {
   position: absolute;
   top: 50%;
@@ -226,6 +234,7 @@
   text-decoration: none;
   z-index: 1;
 }
+
 .feynman__image {
   width: 867px;
   height: 637px;
@@ -255,30 +264,36 @@
   font-weight: 600;
   z-index: 3;
 }
+
 .section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   z-index: 3;
 }
+
 .table_theme_dark {
 }
+
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
   z-index: 2;
 }
+
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
   z-index: 3;
 }
+
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
+
 .kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
@@ -301,6 +316,7 @@
   flex-direction: row;
   position: relative;
 }
+
 .footer__columns {
   width: 90%;
   margin: 0 auto;
@@ -311,6 +327,7 @@
   justify-content: space-around;
   position: relative;
 }
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
@@ -318,11 +335,13 @@
   justify-content: space-between;
   position: relative;
 }
+
 .logo_place_footer {
   width: 228px;
   height: 32px;
   margin-left: 0;
 }
+
 .footer__author {
   margin: 18px auto 18px 0;
   line-height: 25px;
@@ -330,9 +349,10 @@
   font-weight: normal;
   padding: 0;
 }
+
 .footer__column_content_info {
-  
 }
+
 .footer__column-heading {
   margin: 0;
   padding: 0;
@@ -346,9 +366,10 @@
   list-style-type: none;
   margin: 0;
 }
-.footer__column_content_cocial {
 
+.footer__column_content_cocial {
 }
+
 .footer__column-link {
   text-decoration: none;
   color: white;
