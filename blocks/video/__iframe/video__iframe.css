@@ -1,4 +1,7 @@
 .video__iframe {
     width: 515px;
-    height: 296px;
+    height: 316px;
+    margin-bottom: -3%;
+    overflow: visible;
+    z-index: 2;
   }
