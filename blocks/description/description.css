@@ -1,0 +1,9 @@
+.description {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    position: relative;
+  }
